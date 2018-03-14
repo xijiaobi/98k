@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/goupiao/goupiao",
+    "pages/cat/cat",
+    "pages/main/main",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#dd403b",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#fbf6f6"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "imgs/all.png",
+        "iconPath": "imgs/alls.png",
+        "pagePath": "pages/index/index",
+        "text": "电影"
+      },
+      {
+        "selectedIconPath": "imgs/love.png",
+        "iconPath": "imgs/loves.png",
+        "pagePath": "pages/cat/cat",
+        "text": "影院"
+      },
+      {
+        "selectedIconPath": "imgs/usess.png",
+        "iconPath": "imgs/uses.png",
+        "pagePath": "pages/main/main",
+        "text": "我的"
+      }
+    ]
+  }
+}

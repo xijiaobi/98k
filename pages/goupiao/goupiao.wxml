@@ -1,0 +1,32 @@
+<view class='all'>
+<view>
+<text class='name'>UME影城(金牛店) <text class='price'>34.5</text>  <text class='righttext'>元起</text> </text>
+</view>
+<view>
+<text class='dizhi'>金牛区沙湾路1号汇龙龙湾广场3楼</text>
+</view>
+<view>
+<text>  <text class='zuo'>座</text> <text class='for'>4DX厅</text>  <text class='smoll'>小吃</text> <text class='zhekou'>折扣卡</text>   </text>
+</view>
+<view>
+<text class='list'>  近期场次: 11:15  | 13：25 | 15：00</text>
+</view>
+</view>
+
+<view class='all'>
+<view>
+<text class='name'>UME影城(金牛店) <text class='price'>34.5</text>  <text class='righttext'>元起</text> </text>
+</view>
+<view>
+<text class='dizhi'>金牛区沙湾路1号汇龙龙湾广场3楼</text>
+</view>
+<view>
+<text>  <text class='zuo'>座</text> <text class='for'>4DX厅</text>  <text class='smoll'>小吃</text> <text class='zhekou'>折扣卡</text>   </text>
+</view>
+<view>
+<text class='list'>  近期场次: 11:15  | 13：25 | 15：00</text>
+</view>
+</view>
+
+
+

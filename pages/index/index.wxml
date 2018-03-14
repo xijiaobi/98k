@@ -1,0 +1,45 @@
+<view class='allbody' wx:for='{{popelelist}}' wx:key='{{popelelist._id}}'>
+  <view class='movieall'>
+    <!-- 图片，电影logo -->
+    <view>
+    <navigator url='../movie/movie?id={{item._id}}'>
+     <image class='logo' src='http://127.0.0.1:3000{{item.film_covers[0].film_covers}}'></image>
+    </navigator>
+     
+    </view>
+
+    <!-- 中间文字 -->
+    <view class='movietext'>
+      <!-- 电影名字 -->
+      <view>
+        <text class='moviename'>{{item.name}}</text>
+      </view>
+    <!-- 电影类型 -->
+      <view>
+        <text>{{item.type}}</text>
+      </view>
+    <!-- 影院咨询，放映信息 -->
+      <view>
+        <text>今天134家影院放映394场</text>
+      </view>
+
+
+    </view>
+    <!-- 购票指南 -->
+    <view class='maiall'>
+    <!-- 分数 -->
+     <view>
+      <text class='fenshu'>{{item.ratings}}</text>
+    </view>
+    <!-- 点击购票 -->
+    <view>
+    <navigator url='../goupiao/goupiao'>
+      <button class='mai' bindtap='maipiao'>购票</button>
+    </navigator>
+  
+    </view>
+    </view>
+   
+  </view>
+
+</view>

@@ -1,0 +1,62 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.addmolye{
+  color: red;
+}
+
+.logo{
+  width: 80px;
+  height: 100px;
+}
+.allbody{
+  margin-left: 10px;
+}
+.movieall{
+ display: flex;
+ margin-top: 10px;
+ border-bottom: 1px solid black;
+ height: 110px;
+}
+.allbody{
+  font-size:12px;
+}
+.movietext{
+  margin-top: 10px;
+}
+.mai{
+
+  width: 30px;
+  height: 30px;
+  font-size: 7px
+}
+.maiall{
+  margin-left: 50px;
+
+}
+.fenshu{
+  display: block;
+  color: yellow;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}

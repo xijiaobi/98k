@@ -1,0 +1,23 @@
+<view>
+<text>{{msg}}</text>
+</view>
+<view>
+<button bindtap='dian'>{{dizhi}}</button>
+</view>
+<view class="group">
+  <block>
+  
+    <icon type="success_no_circle" size="{{item}}"/>
+  </block>
+</view>
+<view class="section">
+  <input placeholder="请输入充值的金额" auto-focus/>
+</view>
+<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 确认充值 </button>
+
+        <view>
+        <button bindtap='delnum'>-</button>
+        {{count}}
+        <button bindtap='addnum'>+</button>
+        </view> 
